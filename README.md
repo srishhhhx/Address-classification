@@ -4,7 +4,7 @@ A machine learning solution for classifying Indian property addresses into 5 cat
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 1. [Overview](#1-overview)
 2. [Approach Diagram](#2-approach-diagram)

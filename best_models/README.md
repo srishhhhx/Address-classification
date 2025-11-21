@@ -6,15 +6,15 @@ This directory contains the best-performing models for property address classifi
 
 | Model | Accuracy | Macro F1 | Size | Status |
 |-------|----------|----------|------|--------|
-| SVM Classifier | 91.98% | 0.9075 | 605 KB | ✅ Included |
-| IndicBERT | **92.88%** | **0.9195** | 1.1 GB | ⚠️ External |
+| SVM Classifier | 91.98% | 0.9075 | 605 KB |  Included |
+| IndicBERT | **92.88%** | **0.9195** | 1.1 GB | External |
 
 ## Models
 
 ### 1. SVM Classifier (Baseline)
 - **File**: `svm_classifier_v2.pkl` (605 KB)
 - **Performance**: 91.98% accuracy, 0.9075 macro F1
-- **Status**: ✅ **Included in repository**
+- **Status**: **Included in repository**
 - **Loading**: Simple pickle load
 - **Testing**: See `testing/svm_classifier_testing.ipynb`
 
@@ -31,7 +31,7 @@ with open('best_models/svm_classifier_v2.pkl', 'rb') as f:
 ### 2. IndicBERT Classifier (Best Model)
 - **Directory**: `indicbert_property_classifier/`
 - **Performance**: 92.88% accuracy, 0.9195 macro F1
-- **Status**: ⚠️ **Model weights hosted externally (1.1 GB)**
+- **Status**: **Model weights hosted externally (1.1 GB)**
 - **Included Files**: Tokenizer, config, labels (all small files)
 - **Testing**: See `testing/indicbert_testing.ipynb`
 
@@ -68,14 +68,14 @@ The IndicBERT model weights (`model.safetensors`) are **1.1 GB**, which:
 Both models have **fully executed testing notebooks** with all results pre-computed:
 
 1. **SVM Testing**: `testing/svm_classifier_testing.ipynb`
-   - ✅ All metrics, confusion matrix, error analysis
-   - ✅ Custom predictions, visualizations
-   - ✅ No download required
+   - All metrics, confusion matrix, error analysis
+   - Custom predictions, visualizations
+   - No download required
 
 2. **IndicBERT Testing**: `testing/indicbert_testing.ipynb`
-   - ✅ All metrics, confusion matrix, error analysis
-   - ✅ Custom predictions, confidence analysis
-   - ✅ No download required
+   - All metrics, confusion matrix, error analysis
+   - Custom predictions, confidence analysis
+   - No download required
 
 **You can fully evaluate both models by viewing the executed notebooks - no model download needed!**
 
@@ -86,14 +86,14 @@ Both models have **fully executed testing notebooks** with all results pre-compu
 ```
 best_models/
 ├── README.md                               # This file
-├── svm_classifier_v2.pkl                   # SVM model (605 KB) ✅
+├── svm_classifier_v2.pkl                   # SVM model (605 KB)
 └── indicbert_property_classifier/
-    ├── MODEL_INFO.md                       # Download instructions ⚠️
-    ├── config.json                         # Model config ✅
-    ├── tokenizer.json                      # Tokenizer (7.7 MB) ✅
-    ├── tokenizer_config.json               # Tokenizer config ✅
-    ├── special_tokens_map.json             # Special tokens ✅
-    ├── training_args.bin                   # Training metadata ✅
+    ├── MODEL_INFO.md                       # Download instructions
+    ├── config.json                         # Model config
+    ├── tokenizer.json                      # Tokenizer (7.7 MB)
+    ├── tokenizer_config.json               # Tokenizer config
+    ├── special_tokens_map.json             # Special tokens
+    ├── training_args.bin                   # Training metadata
     └── model.safetensors                   # DOWNLOAD FROM DRIVE ⚠️
 ```
 

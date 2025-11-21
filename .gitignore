@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Large model files (hosted externally)
+best_models/indicbert_property_classifier/model.safetensors
+best_models/indicbert_property_classifier/pytorch_model.bin
+
+# Allow small model and data files
+!best_models/svm_classifier_v2.pkl
+!data/*.xlsx
+!data/*.csv
+!best_models/**/*.json
+!**/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Output
+outputs/
+checkpoints/

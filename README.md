@@ -33,7 +33,7 @@ The best model (IndicBERT) achieves **92.88% accuracy** and **0.9195 macro F1** 
 
 ![Approach Diagram](assets/approach_diagram.png)
 
-
+*Complete insights on my approach in [approach.md](approach/approach.md)*
 
 ---
 

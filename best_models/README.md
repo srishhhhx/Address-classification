@@ -121,16 +121,6 @@ best_models/
 
 **Key Insight**: IndicBERT improves most on challenging classes (others, landparcel).
 
----
-
-## Recommendation
-
-**For Production/Deployment:**
-- Use **SVM** if speed and size matter (real-time API, edge devices)
-- Use **IndicBERT** if accuracy is critical and resources available
-
-**For This Submission:**
-- **IndicBERT** is the best-performing model and demonstrates advanced ML capabilities
 
 ---
 

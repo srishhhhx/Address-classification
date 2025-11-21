@@ -91,8 +91,7 @@ The best model (IndicBERT) achieves **92.88% accuracy** and **0.9195 macro F1** 
 - Macro F1: 0.9195 (+0.0120 vs SVM)
 - Model Size: 1.1 GB
 
-**Notebook**: `train/indicbert_training.ipynb` *(not included in repo - trained on Colab)*
-
+**Notebook**: `train/indicbert_training.ipynb`
 ---
 
 ## 5. Best Models & Results
@@ -302,7 +301,7 @@ jupyter notebook svm_classifier_v2.ipynb
 
 **IndicBERT Training**:
 - Original training done on Google Colab with GPU
-- Training notebook: `train/indicbert_training.ipynb` (if included)
+- Training notebook: `train/indicbert_training.ipynb`
 - Requires: GPU, ~16 minutes training time
 - Dataset: Same as SVM (8,936 training + validation split)
 
@@ -434,13 +433,6 @@ Both models achieve strong performance on property address classification:
 ## Contact & Submission
 
 This project was developed as part of a machine learning assignment for property address classification.
-
-**Evaluation Criteria**:
-- Sound approach and methodology
-- Clear reasoning and documentation
-- Reproducibility (all notebooks fully executed)
-- Comprehensive evaluation metrics
-- Model files and artifacts included
 
 **For Reviewers**:
 - All testing notebooks are **pre-executed** - no setup required to view results
